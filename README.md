@@ -1,6 +1,6 @@
 # Shelving: toolkit for using data in JavaScript
 
-[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)](https://github.com/semantic-release/semantic-release) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![GitHub Actions](https://github.com/dhoulb/shelving/workflows/CI/badge.svg?branch=main)](https://github.com/dhoulb/shelving/actions) [![npm](https://img.shields.io/npm/dm/shelving.svg)](https://www.npmjs.com/package/shelving)
+[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)](https://github.com/semantic-release/semantic-release) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![GitHub Actions](https://github.com/nowomed/shelving/workflows/CI/badge.svg?branch=main)](https://github.com/nowomed/shelving/actions) [![npm](https://img.shields.io/npm/dm/shelving.svg)](https://www.npmjs.com/package/shelving)
 
 **Shelving** is a toolkit for using data in JavaScript and TypeScript, including:
 
@@ -39,8 +39,6 @@ Shelving does not include code for CommonJS `require()` imports, so using it in 
 
 Shelving is created from small individual modules which can be imported individually (using e.g. `import { addProp } from "shelving/util/object`). Modules marked with `✅` are also re-exported from the main `"shelving"` module.
 
-@todo Write these docs!
-
 ## Changelog
 
-See [Releases](https://github.com/dhoulb/shelving/releases)
+See [Releases](https://github.com/nowomed/shelving/releases)
