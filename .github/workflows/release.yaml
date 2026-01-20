@@ -1,6 +1,8 @@
 # Runs tests on any push or pull request.
 # If the tests pass and this is a push to the main branch also run Semantic Release.
 name: Release
+permissions:
+  contents: write
 on:
   push:
     branches:
