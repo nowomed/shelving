@@ -25,12 +25,6 @@ jobs:
         run: bun run test
       - name: build
         run: bun run build
-      - name: Configure git to use PAT
-        run: |
-          git config user.name "release-bot"
-          git config user.email "release-bot@users.noreply.github.com"
-          git remote set-url origin "https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git"
-      - uses: cycjimmy/semantic-release-action@v3
+      - uses: cycjimmy/semantic-release-action@v6
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
